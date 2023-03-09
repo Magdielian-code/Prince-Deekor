@@ -1,0 +1,113 @@
+body {
+    text-align: center;
+    font-family:'Happy Monkey', cursive; 
+    margin: 0;
+    background-color: #a2d2ff;
+    color: #ffffff;
+    background: linear-gradient(blue, hotpink);
+    
+    
+}
+
+.h1-title, .h2-age, .h4-date {
+    text-shadow: 0px 0px 1px black ;
+}
+
+.img-friend {
+    border-radius: 50%;
+    border: 7px solid #EFB0C9;
+}
+
+.h2-age {
+    background-color: #EFB0C9;
+    padding: 4px 15px;
+    border-radius: 7px;
+    margin-bottom: 5px 0 10px 0;
+    background: linear-gradient(blue, hotpink);
+} 
+
+.h4-date {
+    background: linear-gradient(blue, hotpink);
+    background-color: #EFB0C9;
+    padding: 4px 15px;
+    border-radius: 7px;
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Juatify-contet, controls the horizontal axis.
+Align-items controls the vertical axis */
+
+
+
+/* Second div section */
+
+.gift-section {
+    margin-top: 50px;
+}
+
+.gift-title {
+    text-shadow: 0px 0px 1px black ;
+    
+}
+
+.gift-hint {
+    text-shadow: 0px 0px 1px black ;
+}
+
+.h2-texts {
+    margin: 70px 0 30px 0;
+}
+
+.img-gift {
+    width: 400px;
+    height: 400px;
+    border: 6px solid #ffffff;
+    border-radius: 10px;
+    background-image: url("/img-gift.jfif");
+    background-size: 590px;
+    margin: 5px auto;
+}
+
+.img-gift:hover {
+    background-image: url("/happy.webp");
+
+}
+
+.react-title {
+    margin: 70px 0 30px 0;
+}
+
+#react-img:hover {
+    background-image: url("/happy.webp");
+}
+
+#genuis-img:hover {
+    background-image: url("/Genius.webp");
+}
+
+#badass-img:hover {
+    background-image: url("/Badass.webp");
+}
+
+#cheers {
+    height: 400px;
+}
+
+#cheers:hover {
+    background-image: url("/Cheers.webp");
+}
+
+.p-footer {
+    text-shadow: 0px 0px 1px black ;
+    margin: 40px auto 30px auto;
+    font-size: larger;
+    font-weight: bolder;
+    width: 400px;
+    font-style: italic;
+}
